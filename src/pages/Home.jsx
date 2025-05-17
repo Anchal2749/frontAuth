@@ -14,7 +14,7 @@ const Home = () => {
 
   const logout = async () => {
     await axios
-      .get("https://authentication-8.onrender.com/api/v1/user/logout", {
+      .get("https://authentication-11.onrender.com/api/v1/user/logout", {
         withCredentials: true,
       })
       .then((res) => {
