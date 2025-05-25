@@ -76,7 +76,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://authentication-11.onrender.com/api/v1/user/me",
+          "https://authentication-backend1.onrender.com/api/v1/user/me",
           {
             withCredentials: true,
             validateStatus: (status) => status < 500 // Consider 401 as normal
