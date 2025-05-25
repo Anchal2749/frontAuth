@@ -12,7 +12,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     await axios
       .post(
-        "https://authentication-11.onrender.com/api/v1/user/password/forgot",
+        "https://authentication-backend1.onrender.com/api/v1/user/password/forgot",
         { email },
         {
           withCredentials: true,
